@@ -1,0 +1,22 @@
+package com.greatLearning.dsa;
+import java.util.*;
+public class SkyscraperBuilding {
+  public static void main(String args[]) { 
+	  Scanner sc = new Scanner(System.in); 
+	  int n=sc.nextInt();
+	  System.out.println("Enter the total no of floors n");
+	  System .out.println("Enter the size of the floor on day : i");
+	  for(int i=0;i<n;i++) 
+	  {
+		  Queue<Integer> queue = new LinkedList<Integer>();
+	        queue.add(1);
+	        queue.add(2);
+	        queue.add(3);
+	 
+	        for (Integer item: queue) {
+	            System.out.println(item);
+	        }
+	  }
+  }
+
+}
